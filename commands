@@ -2,3 +2,7 @@ mkdir 2024_docker_single_cell
 cd 2024_docker_single_cell
 git init
 git remote add origin https://github.com/HarariLab/2024_docker_single_cell.git
+git pull origin main --allow-unrelated-histories
+git add *
+git commit -m "Initial commit"
+git push origin main
